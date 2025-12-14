@@ -5,8 +5,15 @@
 a{
 
     text-decoration: none;
-    gap:10px;
+    gap:30px;
     padding:10px;
+    
+}
+a:hover{
+    background-color: red;
+    height:fit-content;
+    width: fit-content;
+    border-radius: 20px;
     
 }
 nav{
@@ -21,21 +28,15 @@ nav{
 }
 #boxes{
 
-    height:60px;
-
-    padding-top: 20px;
     display: flex; 
-    gap:100px;
-    border-radius: 20px;
-    border-width: 20px;
-    border-color: black;
+
    
 }
 #box1{
-    height:50px;
-    width: 100px;
-    border-color: black;
-    background-color: aqua;
+ flex: 1;              /*  sab box lai equal width deko */
+    height: 200px;
+    background-color: lightblue;
+    border: 5px solid black;
 }
 footer{
      margin-top:550px ;
