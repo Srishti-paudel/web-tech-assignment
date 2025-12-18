@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#container{
+    justify-content: center;
+    display: flex;
+    background-color:beige;
+    color: white;
+}
+#container table{
+    margin-top: 20px;
+    border: 2px;
+    border-color: black;
+}
